@@ -9,4 +9,9 @@ class ApplicationStrings {
   static const String searchPlaceholder = 'Search for books...';
   static const String settingsTitle = 'Settings';
   static const String aboutTitle = 'About CabiBook';
+  static const String getStarted = 'Get Started';
+  static const String continueButton = 'Continue';
+  static const String signUpButton = 'Sign Up';
+  static const String signInButton = 'Sign In';
+  static const String logoutButton = 'Logout';
 }
