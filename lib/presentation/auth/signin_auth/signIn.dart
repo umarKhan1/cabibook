@@ -1,5 +1,6 @@
 import 'package:cabibook/logic/auth/auth_form_validation/authformvalidation_cubit.dart';
 import 'package:cabibook/logic/auth/auth_form_validation/authformvalidation_state.dart';
+import 'package:cabibook/presentation/auth/otp_form_view.dart';
 import 'package:cabibook/utils/app_string.dart';
 import 'package:cabibook/utils/ext.dart';
 import 'package:cabibook/utils/log_file.dart';
@@ -39,8 +40,7 @@ class _SiginViewState extends State<SiginView> {
               ApplicationButton(
                 size: Size(double.infinity, 50.h),
                 onPressed: cubit.isFormValid ? () {
-               logInfo('Login button pressed');
-                  // handle login
+               context.push( const OTPScreen());
                 } : null,
                 child: Text(
                           state.isSignIn

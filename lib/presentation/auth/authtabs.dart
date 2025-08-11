@@ -7,6 +7,7 @@ import 'package:cabibook/utils/images_const.dart';
 import 'package:cabibook/utils/social_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class LoginView extends StatelessWidget {
@@ -15,6 +16,7 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       body: Stack(
         children: [
           Container(
@@ -108,66 +110,73 @@ class LoginView extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: SafeArea(
-              child: Padding(
-                padding: EdgeInsets.only(bottom: 5.h),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 20.w),
-                      child: SocialButton(
-                        onPressed: () {
-                          // Facebook login logic
-                        },
-                        icon: Icons.facebook_outlined,
-                        label: 'Connect with Facebook',
-                        backgroundColor: const Color(
-                          0xFF1877F2,
-                        ), // Facebook Blue
-                      ),
-                    ),
-                    10.hsb,
-                    Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 20.w),
-                      child: SocialButton(
-                        onPressed: () {
-                          // Google login logic
-                        },
-                        icon: Icons.g_mobiledata,
-                        label: 'Connect with Google',
-                        backgroundColor: Colors.red,
-                      ),
-                    ),
-                    12.hsb,
-                    Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 20.w),
-                      child: Text.rich(
-                        TextSpan(
-                          text: 'By clicking start, you agree to our ',
-                          style: TextStyle(
-                            fontSize: 13.sp,
-                            color: Colors.black87,
-                          ),
-                          children: [
-                            TextSpan(
-                              text: 'Terms and Conditions',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 13.sp,
+          KeyboardVisibilityBuilder(
+            builder: (context, keyboardVisible) {
+              return keyboardVisible
+                  ? const SizedBox()
+                  : Align(
+                      alignment: Alignment.bottomCenter,
+                      child: SafeArea(
+                        child: Padding(
+                          padding: EdgeInsets.only(bottom: 5.h),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Padding(
+                                padding: EdgeInsets.symmetric(horizontal: 20.w),
+                                child: SocialButton(
+                                  onPressed: () {
+                                    // Facebook login logic
+                                  },
+                                  icon: Icons.facebook_outlined,
+                                  label: 'Connect with Facebook',
+                                  backgroundColor: const Color(
+                                    0xFF1877F2,
+                                  ), // Facebook Blue
+                                ),
                               ),
-                            ),
-                          ],
+                              10.hsb,
+                              Padding(
+                                padding: EdgeInsets.symmetric(horizontal: 20.w),
+                                child: SocialButton(
+                                  onPressed: () {
+                                    // Google login logic
+                                  },
+                                  icon: Icons.g_mobiledata,
+                                  label: 'Connect with Google',
+                                  backgroundColor: Colors.red,
+                                ),
+                              ),
+                              12.hsb,
+                              Padding(
+                                padding: EdgeInsets.symmetric(horizontal: 20.w),
+                                child: Text.rich(
+                                  TextSpan(
+                                    text:
+                                        'By clicking start, you agree to our ',
+                                    style: TextStyle(
+                                      fontSize: 13.sp,
+                                      color: Colors.black87,
+                                    ),
+                                    children: [
+                                      TextSpan(
+                                        text: 'Terms and Conditions',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 13.sp,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                        textAlign: TextAlign.center,
                       ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
+                    );
+            },
           ),
         ],
       ),
@@ -180,7 +189,6 @@ class _TabButton extends StatelessWidget {
     required this.title,
     required this.isActive,
     required this.onTap,
-    super.key,
   });
 
   final String title;

@@ -80,6 +80,24 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "dbus",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/dbus-0.7.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "dio",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/dio-5.8.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "dio_web_adapter",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/dio_web_adapter-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "equatable",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/equatable-2.0.7",
       "packageUri": "lib/",
@@ -98,6 +116,12 @@
       "languageVersion": "3.7"
     },
     {
+      "name": "fixnum",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/fixnum-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/muhammadomar/Downloads/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -106,6 +130,48 @@
     {
       "name": "flutter_bloc",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_bloc-8.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_dotenv",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_dotenv-5.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_keyboard_visibility",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-6.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_keyboard_visibility_linux",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_linux-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_keyboard_visibility_macos",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_macos-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_keyboard_visibility_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_platform_interface-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_keyboard_visibility_web",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_web-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_keyboard_visibility_windows",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_windows-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -122,6 +188,24 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "flutter_otp_text_field",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_otp_text_field-1.5.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.28",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "flutter_polyline_points",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_polyline_points-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "flutter_screenutil",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_screenutil-5.9.3",
       "packageUri": "lib/",
@@ -134,16 +218,154 @@
       "languageVersion": "3.7"
     },
     {
+      "name": "flutter_typeahead",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/flutter_typeahead-5.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/muhammadomar/Downloads/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
     {
+      "name": "geoclue",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geoclue-0.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "geocoding",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geocoding-2.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "geocoding_android",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geocoding_android-3.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "geocoding_ios",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geocoding_ios-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "geocoding_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geocoding_platform_interface-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "geolocator",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geolocator-14.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "geolocator_android",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geolocator_android-5.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "geolocator_apple",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geolocator_apple-2.3.13",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "geolocator_linux",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geolocator_linux-0.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "geolocator_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geolocator_platform_interface-4.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "geolocator_web",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geolocator_web-4.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "geolocator_windows",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/geolocator_windows-0.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "google_maps",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/google_maps-8.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "google_maps_flutter",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/google_maps_flutter-2.12.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "google_maps_flutter_android",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/google_maps_flutter_android-2.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "google_maps_flutter_ios",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/google_maps_flutter_ios-2.15.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "google_maps_flutter_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.12.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "google_maps_flutter_web",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/google_maps_flutter_web-0.5.12+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "google_places_flutter",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/google_places_flutter-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "gsettings",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/gsettings-0.2.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "html",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/html-0.15.6",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/http-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/http_parser-4.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "image",
@@ -176,6 +398,12 @@
       "languageVersion": "3.6"
     },
     {
+      "name": "lottie",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/lottie-3.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/matcher-0.12.17",
       "packageUri": "lib/",
@@ -200,16 +428,94 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "package_info_plus",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/package_info_plus-8.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "package_info_plus_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/package_info_plus_platform_interface-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
+      "name": "permission_handler",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/permission_handler-12.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "permission_handler_android",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "permission_handler_apple",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "permission_handler_html",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "permission_handler_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/permission_handler_platform_interface-4.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "permission_handler_windows",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "petitparser",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/petitparser-6.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "pointer_interceptor",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/pointer_interceptor-0.10.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "pointer_interceptor_ios",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/pointer_interceptor_ios-0.10.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "pointer_interceptor_platform_interface",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/pointer_interceptor_platform_interface-0.10.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "pointer_interceptor_web",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/pointer_interceptor_web-0.10.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
     },
     {
       "name": "posix",
@@ -220,6 +526,18 @@
     {
       "name": "provider",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/provider-6.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/rxdart-0.27.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sanitize_html",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/sanitize_html-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -236,6 +554,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "sprintf",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/stack_trace-1.12.1",
       "packageUri": "lib/",
@@ -246,6 +570,12 @@
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/stream_channel-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/stream_transform-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
     },
     {
       "name": "string_scanner",
@@ -278,6 +608,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/uuid-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -292,6 +628,24 @@
     {
       "name": "vm_service",
       "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/vm_service-15.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/web-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "win32",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/win32-5.14.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
+    },
+    {
+      "name": "xdg_directories",
+      "rootUri": "file:///Users/muhammadomar/.pub-cache/hosted/pub.dev/xdg_directories-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },

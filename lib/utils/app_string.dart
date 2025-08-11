@@ -1,3 +1,5 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class ApplicationStrings {
   static const String appName = 'CabiBook';
   static const String appDescription = 'Your personal book library';
@@ -14,4 +16,19 @@ class ApplicationStrings {
   static const String signUpButton = 'Sign Up';
   static const String signInButton = 'Sign In';
   static const String logoutButton = 'Logout';
+  static const String otpTitle = 'Phone Verification';
+  static const String otpDescription = 'Enter your OTP code here';
+  static const String hiNiceToMeetYou = 'Hi, nice to meet you!';
+  // ignore: lines_longer_than_80_chars
+  static const String allowNotifications = 'Please allow location access so we can show you nearby rides.';
+  static const String enableLocation = 'Enable Location Services';
+  static const String locationPermissionDenied = 'Location permission denied. Please enable it in settings.';
+  static const String permissionRequired = 'Permission Required';
 }
+
+
+class EnvoironmentVar {
+
+  static final  String googleMapApiKey = dotenv.env['GOOGLE_API_KEY']!;
+
+} 

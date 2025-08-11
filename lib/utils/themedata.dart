@@ -17,7 +17,7 @@ class AppTheme {
         fontFamily: 'Gilroy',
       ),
       bodyMedium: TextStyle(
-        color: ApplicationColors.lightSecondaryText,
+        color: ApplicationColors.lightText,
         fontFamily: 'Gilroy',
       ),
     ),

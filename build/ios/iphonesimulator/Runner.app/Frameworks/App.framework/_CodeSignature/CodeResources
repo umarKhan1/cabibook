@@ -8,13 +8,17 @@
 		<data>
 		h5OB7aKzS5WR9SemvZAyN6FEkJs=
 		</data>
+		<key>flutter_assets/.env</key>
+		<data>
+		gGP61K9R94m4IM6HSUHRGRnpeDE=
+		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		ox1e1GM+TiURTD0Ix6tRB5ZUaWE=
+		VVQwNLZRtVp09lor2hTvNbxzEqY=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		za3U11qfc0oMu0y46QAZif/u7hc=
+		ORpRaE/zwvS1Kt8xUiv5RHH//Vo=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		vvgrFaxpENgdYWeEiH19EnfytG4=
+		IZcHSiybCiWnfaVBnltab4zpdB8=
 		</data>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<data>
@@ -44,6 +48,26 @@
 		<data>
 		hmOjVuubwjt3aWII90N22vWWh+o=
 		</data>
+		<key>flutter_assets/assets/image/.DS_Store</key>
+		<data>
+		FyhK8ZXr7NDQrV6vWXaRjcSjM2k=
+		</data>
+		<key>flutter_assets/assets/image/bike.png</key>
+		<data>
+		+yDKj+w24AItBYNt63UKmI8B0Ec=
+		</data>
+		<key>flutter_assets/assets/image/car.png</key>
+		<data>
+		XsQSIgKsOB3Oy1+LoWn09ZRa2Ms=
+		</data>
+		<key>flutter_assets/assets/image/car2.png</key>
+		<data>
+		JVVA9quzzKOpTqk563wq3/IAuM0=
+		</data>
+		<key>flutter_assets/assets/image/gps.json</key>
+		<data>
+		rKOMC01A/DPKYBhjqFOKsourbms=
+		</data>
 		<key>flutter_assets/assets/image/loginback.png</key>
 		<data>
 		GQv7F5edTTAJ3CvB8K18hmZxy1I=
@@ -64,6 +88,10 @@
 		<data>
 		6TWJik4FjCXAZmsdFUf2a0wm0Lc=
 		</data>
+		<key>flutter_assets/assets/image/permissiongate.png</key>
+		<data>
+		LVh040nfBK4xpsjN7Hpo+SOc/XA=
+		</data>
 		<key>flutter_assets/assets/image/splashbacktheme.png</key>
 		<data>
 		dOib+KH1dVzY9oUw/ROmvKRRpnw=
@@ -78,11 +106,15 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		v7SRF4/hlNBYQZRq9aPRP/RFPiA=
+		bqrKvYKzOuzTfuG26TrJTnwew7I=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		Bvk+P1ykE1PGRdktwgwDyz6AOqM=
+		</data>
+		<key>flutter_assets/packages/google_places_flutter/images/location.json</key>
+		<data>
+		mu+9VNyEY2KqtiLwSZgAhiatVKg=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -95,18 +127,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>flutter_assets/.env</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qILQI74eLzdCE1rnaa/NC/qU9L6HZfYLl7JlEdmK50I=
+			</data>
+		</dict>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LkBAeO6IuQlvEe9p+el2jSkUi50WhZ0Y0zXW6jGuhuc=
+			bI7c7qmTmR30RxH8czx0tkVexwboN1sLb/CQ2y4ZjGk=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aVY4xUGzzVzCMmtG2RHn4ptinwh6jLYMMYAd5vBxhNc=
+			yUu9So/1JjOlXqAtK/NtdhvkP2Pq+OT1oygUPmdWtE4=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -120,7 +159,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qDwSKarfd3NcRL5i1L7vbeMvmJMCnt6bSxx5cb12Zho=
+			DrD0C1265SplymlTGb78Gjnwm5jweoGMevIfMxLQ0Hc=
 			</data>
 		</dict>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
@@ -158,6 +197,34 @@
 			i09VYt4HKqKIR5i5/bIymtQSLZcqG/L1j+ZFuWI7BZA=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/image/bike.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZnFIqvCW6ychLOEjt/5Y1onT2WkFnBUbflWszQ/YcYg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/image/car.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wovHdbIlGW4Qq58txOx06zp5E2T25lLgDBBmdJ81tQk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/image/car2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8KVUU0+d4UCcH5PCy0tuGLqF4/f8X0VSqytq+O4XtcU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/image/gps.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A6PSyaN2Wl6f4ZgKE/breCpgWb++GXMpPEUCanqNE9k=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/image/loginback.png</key>
 		<dict>
 			<key>hash2</key>
@@ -193,6 +260,13 @@
 			BOzXN1ztMcmTSBjb4IBV1g3Hu1JZ5TKewDabyk3ChEA=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/image/permissiongate.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qWrgN5UA6U5Jt7iAWi4X+lOLUBzPgAod97i/h5lhg/Q=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/image/splashbacktheme.png</key>
 		<dict>
 			<key>hash2</key>
@@ -218,7 +292,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A72apDBp9VtcbbPaEd9/Dfg4sdXJHSmYtJHPqRiR1Y8=
+			RiCVkPegpT1rLBlobZ4heBgiMKK8HQKkdkacZgP+fA0=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -226,6 +300,13 @@
 			<key>hash2</key>
 			<data>
 			Z8RP6Rg7AC553ef2l34piGYcmj5KPF/OloeH79vtgjw=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/google_places_flutter/images/location.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PgYgTHBntGtpEITD4U4jtaH6W5Fcu275S4vO/F6ApHk=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
