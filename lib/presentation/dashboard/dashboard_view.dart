@@ -6,7 +6,7 @@ import 'package:cabibook/logic/rider_cubit/ridercubit_cubit.dart';
 import 'package:cabibook/utils/images_const.dart';
 import 'package:cabibook/widget/find_driver_widget.dart';
 import 'package:cabibook/widget/location_widget.dart';
-import 'package:cabibook/widget/pickup_drop_model.dart';
+import 'package:cabibook/widget/pickup_drop_widget.dart';
 import 'package:cabibook/widget/vichele_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

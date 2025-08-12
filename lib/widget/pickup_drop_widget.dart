@@ -9,7 +9,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_places_flutter/google_places_flutter.dart';
 
 class PickupDropModal extends StatefulWidget {
-  const PickupDropModal({Key? key}) : super(key: key);
+  const PickupDropModal({super.key});
 
   @override
   State<PickupDropModal> createState() => _PickupDropModalState();
@@ -73,7 +73,6 @@ FocusNode destFocusNode = FocusNode();
         boxShadow: const [BoxShadow(blurRadius: 5, color: Colors.black26)],
       ),
       child: Column(mainAxisSize: MainAxisSize.min, children: [
-        // ── Pickup Field ────────────────────────────────────
         GooglePlaceAutoCompleteTextField(
           textEditingController: _pickupController,
           focusNode: pickupFocusNode,
@@ -100,7 +99,7 @@ FocusNode destFocusNode = FocusNode();
     
         const SizedBox(height: 8),
     
-        // ── Destination Field ────────────────────────────────────
+        
         GooglePlaceAutoCompleteTextField(
         focusNode: destFocusNode,  
           textEditingController: _destController,

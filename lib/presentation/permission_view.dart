@@ -44,7 +44,7 @@ void showCupertinoPermissionDialog(BuildContext context) {
       body: BlocConsumer<PermissionCubit, PermissionState>(
         listener: (context, state) {
           if (state is LocationPermissionGranted) {
-            context.push( ApplicationDashboardView());
+            context.push( const ApplicationDashboardView());
           }
 
           if (state is LocationPermissionDenied && state.permanently) {

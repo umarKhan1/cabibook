@@ -8,10 +8,27 @@ class RideCubit extends Cubit<RideState> {
 
   void loadOptions(double distanceKm) {
     final opts = [
-
-      VehicleOption(name: 'Limousine', asset: ApplicationImageConst.carImage1, price: 80, distanceKm: distanceKm, etaMin: 5),
-      VehicleOption(name: 'Luxury', asset: ApplicationImageConst.carImage2, price: 50, distanceKm: distanceKm, etaMin: 3),
-      VehicleOption(name: 'Bike', asset: ApplicationImageConst.bikeImage, price: 15, distanceKm: distanceKm, etaMin: 3),
+      VehicleOption(
+        name: 'Limousine',
+        asset: ApplicationImageConst.carImage1,
+        price: 80,
+        distanceKm: distanceKm,
+        etaMin: 5,
+      ),
+      VehicleOption(
+        name: 'Luxury',
+        asset: ApplicationImageConst.carImage2,
+        price: 50,
+        distanceKm: distanceKm,
+        etaMin: 3,
+      ),
+      VehicleOption(
+        name: 'Bike',
+        asset: ApplicationImageConst.bikeImage,
+        price: 15,
+        distanceKm: distanceKm,
+        etaMin: 3,
+      ),
       // … add more
     ];
     emit(RideOptionsLoaded(opts));

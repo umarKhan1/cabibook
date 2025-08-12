@@ -57,7 +57,7 @@ BlocProvider<RideCubit>(
           debugShowCheckedModeBanner: false,
           title: ApplicationStrings.appName,
           theme: AppTheme.lightTheme,
-          home:  ApplicationDashboardView(),
+          home: const  SplashView(),
         ),
       ),
     );
